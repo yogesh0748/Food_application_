@@ -27,15 +27,19 @@
         <activity
             android:name=".Splash_Screen"
             android:exported="true">
+
+        </activity> <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Main Activity -->
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+        </activity>
+
+
 
         <meta-data
             android:name="preloaded_fonts"
