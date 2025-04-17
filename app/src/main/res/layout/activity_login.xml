@@ -130,7 +130,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginBtn"
+        android:id="@+id/addToCartBtn"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="84dp"
@@ -153,8 +153,8 @@
         android:fontFamily="@font/adlam_display"
         android:text="Don’t Have Account?"
         android:textColor="@color/textColor"
-        app:layout_constraintEnd_toEndOf="@+id/loginBtn"
+        app:layout_constraintEnd_toEndOf="@+id/addToCartBtn"
         app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="@+id/loginBtn"
-        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+        app:layout_constraintStart_toStartOf="@+id/addToCartBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addToCartBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
